@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Fira GO-BOLD";
+  src: url("./fonts/FiraGO-Bold.ttf");
+}
+@font-face {
+  font-family: "Fira GO-MEDIUM";
+  src: url("./fonts/FiraGO-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 52px 65px 48px;
+}
+header,
+.new-task h3,
+button,
+.continue,
+.completed,
+.no-task-warning,
+.delete-btn,
+.task-type-cont,
+.continue-header,
+.task-type-complete {
+  font-family: "Fira GO-BOLD";
+}
+.warning,
+label,
+input,
+.task-name {
+  font-family: "Fira GO-MEDIUM";
+}
